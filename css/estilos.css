@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {	
+	width: 100%;
+	margin: 0;
+}
+h1,h2 {
+	text-align: center;
+	font-family: Verdana,Arial, Helvetica, sans-serif;}
+section{	
+	background-image: url ("../img/fundo.jpg");
+	background-color:#baecf8c2;
+	background-position: center;
+  	background-repeat: no-repeat;	 	
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+
+img{max-width: 100%;}
+nav{
+	background-color:#000000;
+	height: 35px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+nav ul{
+	height: auto; 
+	padding: 8px 0px; 
+	margin: 0px;
+}
+nav li{
+	display: inline; 
+	padding: 10px;
+	margin: 0px;
+}
+nav a{
+	text-decoration: none; 
+	color:#FFFFFF;
+	padding: 8px 8px 8px 8px;
+}
+nav a:hover{
+	color:#000000; 
+	background-color:#eeff01;
+}
+
+footer{
+	background-color: #000000;
+	color: #FFFFFF; 
+	font-family: Verdana; 
+	font-size: 12px;
+	text-align: center;
+	padding: 5px;
+	}
+@media all and (min-width: 960px)
+{
+	body{
+		margin: auto; 
+		width: 960px;
+	}
+}
+@media all and (max-width: 480px)
+{
+	nav{
+	height: 100%;
+	}
+	nav li{
+		display: block;
+		padding: 10px; 
+		margin: 0px;
+	}
+}
